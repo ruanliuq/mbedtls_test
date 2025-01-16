@@ -1,5 +1,10 @@
 README for Mbed TLS
 ===================
+下载过来的是mbedtls_test重命名为mbedtls
+mbedtls/domain-manager3/makefile文件需要修改
+具体为带有rlq的路径都改为自己的
+
+
 
 进入mbedtls目录下执行
 make CC=riscv64-unknown-linux-gnu-gcc AR=riscv64-unknown-linux-gnu-ar LD=riscv64-unknown-linux-gnu-ld
