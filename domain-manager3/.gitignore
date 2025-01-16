@@ -1,0 +1,15 @@
+build
+back-MAKEFILE
+bench.c
+bench.h
+eapp
+*.a
+*~
+/dm/*.o
+/dm/*.a
+/tests/*.o
+/tests/*.a
+.vscode
+paper.md
+dm3
+temp-switch.c
