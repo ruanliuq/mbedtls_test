@@ -8,7 +8,7 @@ make CC=riscv64-unknown-linux-gnu-gcc AR=riscv64-unknown-linux-gnu-ar LD=riscv64
 
 mbedtls/build文件夹里面的东西都是没有用的，可以删除
 
-修改需要执行的测试程序，进入mbedtls/programs/test/文件夹下的mybenchmark.c文件，见test_bench()函数，需要执行哪个就把哪个的注释去掉
+修改需要执行的测试程序，进入mbedtls/programs/test/文件夹下的mybenchmark.c文件，见test_bench()函数，需要执行哪个就把哪个的注释去掉（如todo.hmac_drbg = 1;）
 benchmark（附件）.c里面是原来的程序（没有动过），我把里面的进行修改和删除写的mybenchmark.c
 
 最后再进入mbedtls/domain-manager3执行make clean和make
